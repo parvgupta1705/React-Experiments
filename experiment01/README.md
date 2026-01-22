@@ -12,8 +12,6 @@ Navigation between pages is handled using **React state and conditional renderin
 - Practice component communication using props
 - Avoid external routing libraries for clarity
 
----
-
 ## 🛠️ Tech Stack
 
 - React (Vite)
@@ -21,7 +19,26 @@ Navigation between pages is handled using **React state and conditional renderin
 - CSS (Vanilla)
 - Node.js & npm
 
----
-
 ## 📂 Project Structure
+experiment01/
+├─ src/
+│ ├─ components/
+│ │ └─ Navbar.jsx
+│ ├─ pages/
+│ │ ├─ Home.jsx
+│ │ ├─ About.jsx
+│ │ └─ Contact.jsx
+│ ├─ App.jsx
+│ └─ main.jsx
+├─ public/
+├─ index.html
+├─ vite.config.js
+└─ package.json
+
+## ⚙️ How It Works
+
+- The current page is stored in a React `useState` hook.
+- The `Navbar` component updates the page state via props.
+- The `App` component conditionally renders pages based on the state.
+- No URL changes occur (no router is used).
 
