@@ -20,20 +20,23 @@ Navigation between pages is handled using **React state and conditional renderin
 - Node.js & npm
 
 ## 📂 Project Structure
+
 experiment01/
 ├─ src/
-│ ├─ components/
-│ │ └─ Navbar.jsx
-│ ├─ pages/
-│ │ ├─ Home.jsx
-│ │ ├─ About.jsx
-│ │ └─ Contact.jsx
-│ ├─ App.jsx
-│ └─ main.jsx
+│  ├─ components/
+│  │  ├─ Navbar.jsx
+│  │  └─ Navbar.css
+│  ├─ pages/
+│  │  ├─ Home.jsx
+│  │  ├─ About.jsx
+│  │  └─ Contact.jsx
+│  ├─ App.jsx
+│  └─ main.jsx
 ├─ public/
 ├─ index.html
 ├─ vite.config.js
 └─ package.json
+
 
 ## ⚙️ How It Works
 
