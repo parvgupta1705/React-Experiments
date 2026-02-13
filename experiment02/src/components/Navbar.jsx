@@ -1,4 +1,5 @@
 import { AppBar, Toolbar, Typography, Button, Container } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -14,9 +15,10 @@ export default function Navbar() {
             TechNova
           </Typography>
 
-          <Button color="inherit">Home</Button>
-          <Button color="inherit">Features</Button>
+          <Button color="inherit" component={Link} to="/">Home</Button>
+          <Button color="inherit" component={Link} to="/projects">Projects</Button>
           <Button color="inherit">Contact</Button>
+
         </Toolbar>
       </Container>
     </AppBar>
