@@ -6,10 +6,9 @@ import CardComponent from "../components/CardComponent";
 export default function Projects() {
   return (
     <>
-      <Navbar />
 
       <Container maxWidth="lg" sx={{ py: 8 }}>
-        <Typography variant="h3" color="white" gutterBottom>
+        <Typography variant="h3" color="black" gutterBottom>
           Our Projects
         </Typography>
 
@@ -20,7 +19,6 @@ export default function Projects() {
         <CardComponent />
       </Container>
 
-      <Footer />
     </>
   );
 }

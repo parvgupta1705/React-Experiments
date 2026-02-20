@@ -7,14 +7,10 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
-
       <Container maxWidth="lg">
         <HeroSection />
         <CardComponent />
       </Container>
-
-      <Footer />
     </>
   );
 }
